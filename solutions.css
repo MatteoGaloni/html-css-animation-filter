@@ -57,3 +57,53 @@
 .ex-7-img:hover {
     filter: grayscale(2) opacity(10%) ;
 }
+
+.ex-8-img {
+    transition: 1s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(60%) contrast(200%) ;
+    border-radius: 25px;
+}
+
+.ex-9-img {
+    transition: 1s;
+}
+
+.ex-9-img:hover {
+    filter: sepia(60%) contrast(200%) ;
+    border-radius: 25px;
+    transform: scale(.2);
+}
+
+.ex-10-icon {
+        animation: spin 2s infinite linear;
+    }
+    
+    @keyframes spin {
+        0% {
+            transform: rotate(1turn);
+        }
+    
+}
+
+.ex-11-icon:hover {
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    80% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+
